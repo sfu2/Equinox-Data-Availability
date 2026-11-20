@@ -1,0 +1,16 @@
+ninja --quiet -C build-Release df_wpds
+ninja: Entering directory `build-Release'
+ninja: no work to do.
+Executing binary: ./build-Release/bin/df_wpds
+Queries in: 172 ms
+total_pairs: 1683486, yes_pairs: 4172
+Memory usage: 59.25 MB
+==============================================
+General Statistic:
+#Node: 32243	#Edge: 41380
+Label Statistic:
+INC: 410	DEC: 862	CALL: 4595	RET: 17366
+INC/DEC: 1272	CALL/RET: 21961
+==============================================
+Reading query pairs from df_infiniband_query_pairs.txt
+#Src: 1953, #Sink: 862

@@ -1,0 +1,13 @@
+Executing binary: ./build-Release/bin/df_wpds
+Queries in: 757414 ms
+total_pairs: 21955020, yes_pairs: 300992
+Memory usage: 594.656 MB
+==============================================
+General Statistic:
+#Node: 144648	#Edge: 186553
+Label Statistic:
+INC: 1398	DEC: 2770	CALL: 25283	RET: 70805
+INC/DEC: 4168	CALL/RET: 96088
+==============================================
+Reading query pairs from df_net_query_pairs.txt
+#Src: 7926, #Sink: 2770

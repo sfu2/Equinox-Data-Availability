@@ -1,0 +1,20 @@
+ninja --quiet -C build-Release query_gen
+ninja: Entering directory `build-Release'
+ninja: no work to do.
+Executing binary: ./build-Release/bin/query_gen
+==============================================
+General Statistic:
+#Node: 25364	#Edge: 40296
+Label Statistic:
+INC: 112	DEC: 403	CALL: 6108	RET: 14194
+INC/DEC: 515	CALL/RET: 20302
+==============================================
+memory leak: 112 4925 > ml_btrfs_query_pairs.txt
+==============================================
+General Statistic:
+#Node: 27592	#Edge: 49516
+Label Statistic:
+INC: 112	DEC: 401	CALL: 6585	RET: 20122
+INC/DEC: 513	CALL/RET: 26707
+==============================================
+double free: 3120 401 > df_btrfs_query_pairs.txt

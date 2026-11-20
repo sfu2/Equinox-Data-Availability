@@ -1,0 +1,20 @@
+ninja --quiet -C build-Release df_ablation_rc
+ninja: Entering directory `build-Release'
+ninja: no work to do.
+Executing binary: ./build-Release/bin/df_ablation_rc
+#Cover: 193
+#Cover: 211
+Query Duration: 0 s
+==============================================
+General Statistic:
+#Node: 2136	#Edge: 2552
+Label Statistic:
+INC: 83	DEC: 133	CALL: 248	RET: 817
+INC/DEC: 216	CALL/RET: 1065
+==============================================
+summary edge size: 248 CS
+summary edge size: 52 ID
+Reading query pairs from df_netfilter_query_pairs.txt
+#Src: 81, #Sink: 133
+id: 24	cs: 20	both: 12
+total: 133	[cs: 0.1504]	[id: 0.1805]	[both / total: 0.0902]

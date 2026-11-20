@@ -1,0 +1,20 @@
+ninja --quiet -C build-Release ml_ablation_rc
+ninja: Entering directory `build-Release'
+ninja: no work to do.
+Executing binary: ./build-Release/bin/ml_ablation_rc
+#Cover: 233
+#Cover: 186
+Query Duration: 0 s
+==============================================
+General Statistic:
+#Node: 2836	#Edge: 3359
+Label Statistic:
+INC: 116	DEC: 158	CALL: 331	RET: 1080
+INC/DEC: 274	CALL/RET: 1411
+==============================================
+Reading query pairs from ml_ipv4_query_pairs.txt
+#Src: 116, #Sink: 524
+summary edge size: 37 ID
+summary edge size: 331 CS
+id reach: 96	cs reach: 97	both: 96
+total: 116	[cs: 0.8362]	[id: 0.8276]	[both / total: 0.8276]

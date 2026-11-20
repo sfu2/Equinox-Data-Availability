@@ -1,0 +1,20 @@
+ninja --quiet -C build-Release query_gen
+ninja: Entering directory `build-Release'
+ninja: no work to do.
+Executing binary: ./build-Release/bin/query_gen
+==============================================
+General Statistic:
+#Node: 1960	#Edge: 2233
+Label Statistic:
+INC: 115	DEC: 227	CALL: 142	RET: 687
+INC/DEC: 342	CALL/RET: 829
+==============================================
+memory leak: 115 267 > ml_batman-adv_query_pairs.txt
+==============================================
+General Statistic:
+#Node: 1953	#Edge: 2281
+Label Statistic:
+INC: 115	DEC: 227	CALL: 139	RET: 687
+INC/DEC: 342	CALL/RET: 826
+==============================================
+double free: 134 227 > df_batman-adv_query_pairs.txt

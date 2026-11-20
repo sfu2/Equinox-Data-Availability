@@ -1,0 +1,18 @@
+ninja --quiet -C build-Release ml_rc
+ninja: Entering directory `build-Release'
+ninja: no work to do.
+Executing binary: ./build-Release/bin/ml_rc
+#Cover: 10868
+Memory usage: 988.871 MB
+==============================================
+General Statistic:
+#Node: 210719	#Edge: 251882
+Label Statistic:
+INC: 2650	DEC: 5677	CALL: 38643	RET: 97656
+INC/DEC: 8327	CALL/RET: 136299
+==============================================
+Reading query pairs from ml_gpu_query_pairs.txt
+#Src: 2650, #Sink: 34858
+summary edge size: 154171 ID
+total: 92373700	cs id reach: 1357998
+time: 26696 ms

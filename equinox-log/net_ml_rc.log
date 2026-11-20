@@ -1,0 +1,15 @@
+Executing binary: ./build-Release/bin/ml_rc
+#Cover: 7409
+Memory usage: 436.789 MB
+==============================================
+General Statistic:
+#Node: 137584	#Edge: 173190
+Label Statistic:
+INC: 1400	DEC: 2770	CALL: 23127	RET: 67226
+INC/DEC: 4170	CALL/RET: 90353
+==============================================
+Reading query pairs from ml_net_query_pairs.txt
+#Src: 1400, #Sink: 18356
+summary edge size: 21188 ID
+total: 25698400	cs id reach: 470470
+time: 6236 ms

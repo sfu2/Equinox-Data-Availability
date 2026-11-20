@@ -1,0 +1,16 @@
+Executing binary: ./build-Release/bin/df_rc
+#Cover: 7631
+Memory usage: 455.906 MB
+==============================================
+General Statistic:
+#Node: 144648	#Edge: 186553
+Label Statistic:
+INC: 1398	DEC: 2770	CALL: 25283	RET: 70805
+INC/DEC: 4168	CALL/RET: 96088
+==============================================
+Reading query pairs from df_net_query_pairs.txt
+#Src: 7926, #Sink: 2770
+summary edge size: 21395 ID
+total: 21955020	cs id reach: 300992	both reach: 0
+total_src: 7926	unique_src: 5091
+time: 7373 ms

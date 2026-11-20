@@ -1,0 +1,13 @@
+Executing binary: ./build-Release/bin/ml_wpds
+total_pairs: 25698400, yes_pairs: 470470
+Memory usage: 433.086 MB
+==============================================
+General Statistic:
+#Node: 137584	#Edge: 173190
+Label Statistic:
+INC: 1400	DEC: 2770	CALL: 23127	RET: 67226
+INC/DEC: 4170	CALL/RET: 90353
+==============================================
+Reading query pairs from ml_net_query_pairs.txt
+#Src: 1400, #Sink: 18356
+time: 280118 ms

@@ -1,0 +1,19 @@
+ninja --quiet -C build-Release df_rc
+ninja: Entering directory `build-Release'
+ninja: no work to do.
+Executing binary: ./build-Release/bin/df_rc
+#Cover: 1693
+Memory usage: 98 MB
+==============================================
+General Statistic:
+#Node: 32243	#Edge: 41380
+Label Statistic:
+INC: 410	DEC: 862	CALL: 4595	RET: 17366
+INC/DEC: 1272	CALL/RET: 21961
+==============================================
+Reading query pairs from df_infiniband_query_pairs.txt
+#Src: 1953, #Sink: 862
+summary edge size: 595 ID
+total: 1683486	cs id reach: 4172	both reach: 0
+total_src: 1953	unique_src: 969
+time: 600 ms

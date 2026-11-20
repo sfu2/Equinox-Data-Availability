@@ -1,0 +1,20 @@
+ninja --quiet -C build-Release query_gen
+ninja: Entering directory `build-Release'
+ninja: no work to do.
+Executing binary: ./build-Release/bin/query_gen
+==============================================
+General Statistic:
+#Node: 210719	#Edge: 251882
+Label Statistic:
+INC: 2650	DEC: 5677	CALL: 38643	RET: 97656
+INC/DEC: 8327	CALL/RET: 136299
+==============================================
+memory leak: 2650 34858 > ml_gpu_query_pairs.txt
+==============================================
+General Statistic:
+#Node: 217596	#Edge: 275437
+Label Statistic:
+INC: 2648	DEC: 5682	CALL: 39728	RET: 105961
+INC/DEC: 8330	CALL/RET: 145689
+==============================================
+double free: 16300 5682 > df_gpu_query_pairs.txt

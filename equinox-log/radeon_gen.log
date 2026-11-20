@@ -1,0 +1,20 @@
+ninja --quiet -C build-Release query_gen
+ninja: Entering directory `build-Release'
+ninja: no work to do.
+Executing binary: ./build-Release/bin/query_gen
+==============================================
+General Statistic:
+#Node: 2195	#Edge: 2713
+Label Statistic:
+INC: 41	DEC: 70	CALL: 466	RET: 829
+INC/DEC: 111	CALL/RET: 1295
+==============================================
+memory leak: 41 114 > ml_radeon_query_pairs.txt
+==============================================
+General Statistic:
+#Node: 2205	#Edge: 2832
+Label Statistic:
+INC: 41	DEC: 70	CALL: 465	RET: 876
+INC/DEC: 111	CALL/RET: 1341
+==============================================
+double free: 70 70 > df_radeon_query_pairs.txt

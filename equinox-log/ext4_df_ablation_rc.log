@@ -1,0 +1,20 @@
+ninja --quiet -C build-Release df_ablation_rc
+ninja: Entering directory `build-Release'
+ninja: no work to do.
+Executing binary: ./build-Release/bin/df_ablation_rc
+#Cover: 810
+#Cover: 409
+Query Duration: 0 s
+==============================================
+General Statistic:
+#Node: 12167	#Edge: 21684
+Label Statistic:
+INC: 51	DEC: 420	CALL: 2859	RET: 9480
+INC/DEC: 471	CALL/RET: 12339
+==============================================
+summary edge size: 2859 CS
+summary edge size: 142 ID
+Reading query pairs from df_ext4_query_pairs.txt
+#Src: 631, #Sink: 420
+id: 259	cs: 137	both: 96
+total: 420	[cs: 0.3262]	[id: 0.6167]	[both / total: 0.2286]

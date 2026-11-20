@@ -1,0 +1,20 @@
+ninja --quiet -C build-Release query_gen
+ninja: Entering directory `build-Release'
+ninja: no work to do.
+Executing binary: ./build-Release/bin/query_gen
+==============================================
+General Statistic:
+#Node: 345	#Edge: 406
+Label Statistic:
+INC: 8	DEC: 91	CALL: 8	RET: 23
+INC/DEC: 99	CALL/RET: 31
+==============================================
+memory leak: 8 97 > ml_exfat_query_pairs.txt
+==============================================
+General Statistic:
+#Node: 345	#Edge: 416
+Label Statistic:
+INC: 8	DEC: 91	CALL: 8	RET: 25
+INC/DEC: 99	CALL/RET: 33
+==============================================
+double free: 11 91 > df_exfat_query_pairs.txt

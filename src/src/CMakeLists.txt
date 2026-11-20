@@ -1,0 +1,6 @@
+CB_GET_SOURCE_FILES(SRC_LISTS)
+message(STATUS "found source files: ${SRC_LISTS}")
+add_library(refcnt ${SRC_LISTS})
+target_include_directories(refcnt PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_libraries(refcnt PUBLIC fmt::fmt)
+target_link_libraries(refcnt PUBLIC libcsr)

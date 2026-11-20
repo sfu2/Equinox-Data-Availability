@@ -1,0 +1,20 @@
+ninja --quiet -C build-Release ml_ablation_rc
+ninja: Entering directory `build-Release'
+ninja: no work to do.
+Executing binary: ./build-Release/bin/ml_ablation_rc
+#Cover: 213
+#Cover: 89
+Query Duration: 0 s
+==============================================
+General Statistic:
+#Node: 345	#Edge: 406
+Label Statistic:
+INC: 8	DEC: 91	CALL: 8	RET: 23
+INC/DEC: 99	CALL/RET: 31
+==============================================
+Reading query pairs from ml_exfat_query_pairs.txt
+#Src: 8, #Sink: 97
+summary edge size: 10 ID
+summary edge size: 8 CS
+id reach: 1	cs reach: 8	both: 1
+total: 8	[cs: 1.0000]	[id: 0.1250]	[both / total: 0.1250]

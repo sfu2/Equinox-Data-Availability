@@ -1,0 +1,20 @@
+ninja --quiet -C build-Release query_gen
+ninja: Entering directory `build-Release'
+ninja: no work to do.
+Executing binary: ./build-Release/bin/query_gen
+==============================================
+General Statistic:
+#Node: 2211	#Edge: 2556
+Label Statistic:
+INC: 83	DEC: 133	CALL: 261	RET: 842
+INC/DEC: 216	CALL/RET: 1103
+==============================================
+memory leak: 83 224 > ml_netfilter_query_pairs.txt
+==============================================
+General Statistic:
+#Node: 2136	#Edge: 2552
+Label Statistic:
+INC: 83	DEC: 133	CALL: 248	RET: 817
+INC/DEC: 216	CALL/RET: 1065
+==============================================
+double free: 81 133 > df_netfilter_query_pairs.txt

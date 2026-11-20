@@ -1,0 +1,17 @@
+Executing binary: ./build-Release/bin/ml_ablation_rc
+#Cover: 248
+#Cover: 256
+Query Duration: 0 s
+==============================================
+General Statistic:
+#Node: 2195	#Edge: 2713
+Label Statistic:
+INC: 41	DEC: 70	CALL: 466	RET: 829
+INC/DEC: 111	CALL/RET: 1295
+==============================================
+Reading query pairs from ml_radeon_query_pairs.txt
+#Src: 41, #Sink: 114
+summary edge size: 19 ID
+summary edge size: 466 CS
+id reach: 6	cs reach: 8	both: 6
+total: 41	[cs: 0.1951]	[id: 0.1463]	[both / total: 0.1463]

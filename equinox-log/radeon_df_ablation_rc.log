@@ -1,0 +1,17 @@
+Executing binary: ./build-Release/bin/df_ablation_rc
+#Cover: 249
+#Cover: 269
+Query Duration: 0 s
+==============================================
+General Statistic:
+#Node: 2205	#Edge: 2832
+Label Statistic:
+INC: 41	DEC: 70	CALL: 465	RET: 876
+INC/DEC: 111	CALL/RET: 1341
+==============================================
+summary edge size: 465 CS
+summary edge size: 19 ID
+Reading query pairs from df_radeon_query_pairs.txt
+#Src: 70, #Sink: 70
+id: 2	cs: 1	both: 0
+total: 70	[cs: 0.0143]	[id: 0.0286]	[both / total: 0.0000]
